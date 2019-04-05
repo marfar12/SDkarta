@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Steuerrechner</string>
+    <string name="hruba_mzda">Bruttolohn</string>
+    <string name="cista_mzda">Nettolohn</string>
+    <string name="ulozit">Berechnen</string>
+    <string name="nacitat">Last</string>
+    <string name="vymazat">Klar</string>
+    <string name="nemocenske">Krankenversicherung <font color="#FF3000">(1,4%)</font></string>
+    <string name="starobne">Alte Versicherung <font color="#FF3000">(4,0%)</font></string>
+    <string name="invalidne">Invalidenversicherung <font color="#FF3000">(3,0%)</font></string>
+    <string name="nezamestnanost">Arbeitslosenversicherung <font color="#FF3000">(1,0%)</font></string>
+    <string name="odvody">Zahlungen zusammen <font color="#FF3000">(13,4%)</font></string>
+    <string name="socialna">Sozialversicherungsgesellschaft <font color="#FF3000">(9,4%)</font></string>
+    <string name="zdravotne">Krankenversicherung <font color="#FF3000">(4,0%)</font></string>
+    <string name="dan">Einkommensteuer</string>
+    <string name="deti">Anzahl der Kinder:</string>
+    <string name="check_manzelka">Frau</string>
+    <string name="toast_ulozit">Gespeicherté</string>
+    <string name="toast_chyba">Fehler</string>
+    <string name="toast_minimalna_mzda">Der Wert muss mindestens 200 sein</string>
+    <string name="toast_subor_neexistuje">Datei existiert nicht</string>
+    <string name="toast_vymazat">Gelöscht</string>
+    <string name="toast_chyba_vymazania">Fehler beim Löschen</string>
+    <string name="toast_chyba_zapisovania">Kann nicht auf SD-Karte schreiben</string>
+    <string name="toast_nacitane">Beladen</string>
+
+    <string name="pociatocna_hodnota">0 €</string>
+    <string name="eur">%1$s €</string>
+</resources>

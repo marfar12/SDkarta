@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Tax calculator</string>
+    <string name="hruba_mzda">Gross wage</string>
+    <string name="cista_mzda">Net wage</string>
+    <string name="ulozit">Calculate</string>
+    <string name="nacitat">Load</string>
+    <string name="vymazat">Delete</string>
+    <string name="nemocenske">Sickness insurance <font color="#FF3000">(1,4%)</font></string>
+    <string name="starobne">Old insurance <font color="#FF3000">(4,0%)</font></string>
+    <string name="invalidne">Disability insurance <font color="#FF3000">(3,0%)</font></string>
+    <string name="nezamestnanost">Unemployment insurance <font color="#FF3000">(1,0%)</font></string>
+    <string name="odvody">Levies together <font color="#FF3000">(13,4%)</font></string>
+    <string name="socialna">Social insurance <font color="#FF3000">(9,4%)</font></string>
+    <string name="zdravotne">Health insurance <font color="#FF3000">(4,0%)</font></string>
+    <string name="dan">Income tax</string>
+    <string name="deti">Number of kids:</string>
+    <string name="check_manzelka">Wife</string>
+    <string name="toast_ulozit">Saved</string>
+    <string name="toast_chyba">Error</string>
+    <string name="toast_minimalna_mzda">Value must be at least 200</string>
+    <string name="toast_subor_neexistuje">File does not exist</string>
+    <string name="toast_vymazat">Deleted</string>
+    <string name="toast_chyba_vymazania">Could not be deleted</string>
+    <string name="toast_chyba_zapisovania">Cannot write to SD card</string>
+    <string name="toast_nacitane">Loaded</string>
+
+    <string name="pociatocna_hodnota">0 €</string>
+    <string name="eur">%1$s €</string>
+</resources>

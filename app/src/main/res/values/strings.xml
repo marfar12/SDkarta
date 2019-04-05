@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Daňová kalkulačka</string>
+    <string name="hruba_mzda">Hrubá mzda</string>
+    <string name="cista_mzda">Čistá mzda:</string>
+    <string name="ulozit">Vypočítať</string>
+    <string name="nacitat">Načítať</string>
+    <string name="vymazat">Vymazať</string>
+    <string name="nemocenske">Nemocenské poistenie <font color="#FF3000">(1,4%)</font></string>
+    <string name="starobne">Starobné poistenie <font color="#FF3000">(4,0%)</font></string>
+    <string name="invalidne">Invalidné poistenie <font color="#FF3000">(3,0%)</font></string>
+    <string name="nezamestnanost">Poistenie v nezamestnanosti <font color="#FF3000">(1,0%)</font></string>
+    <string name="odvody">Odvody spolu <font color="#FF3000">(13,4%)</font></string>
+    <string name="socialna">Sociálna poisťovňa <font color="#FF3000">(9,4%)</font></string>
+    <string name="zdravotne">Zdravotné poistenie <font color="#FF3000">(4,0%)</font></string>
+    <string name="dan">Daň z príjmu</string>
+    <string name="eurSign" translatable="false">€</string>
+    <string name="deti">Počet detí:</string>
+    <string name="deti_max" translatable="false">10</string>
+    <string name="deti_default" translatable="false">0</string>
+    <string name="check_manzelka">Manželka</string>
+    <string name="toast_ulozit">Uložené</string>
+    <string name="toast_chyba">Chyba</string>
+    <string name="toast_minimalna_mzda">Hodnota musí byť aspoň 200</string>
+    <string name="toast_subor_neexistuje">Súbor neexistuje</string>
+    <string name="toast_vymazat">Vymazané</string>
+    <string name="toast_chyba_vymazania">Nepodarilo sa vymazať</string>
+    <string name="toast_chyba_zapisovania">Nedá sa zapísať na SD kartu</string>
+    <string name="toast_nacitane">Načítané</string>
+
+    <string name="pociatocna_hodnota">0 €</string>
+    <string name="eur">%1$s €</string>
+</resources>

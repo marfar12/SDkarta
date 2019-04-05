@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        tools:context="com.example.nax.sdkarta.SDkarta">
+
+        <EditText
+            android:id="@+id/editTextHrubaMzda"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textSize="15sp"
+            android:layout_column="0"
+            android:layout_row="0"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:inputType="numberDecimal"
+            android:hint="@string/hruba_mzda" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_column="1"
+            android:layout_row="0"
+            android:layout_gravity="center"
+            android:text="@string/eurSign" />
+
+        <TextView
+            android:id="@+id/textViewDeti"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_column="0"
+            android:layout_row="1"
+            android:layout_gravity="center|start"
+            android:text="@string/deti" />
+
+        <EditText
+            android:id="@+id/editTextDeti"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textSize="15sp"
+            android:layout_column="0"
+            android:layout_row="1"
+            android:labelFor="@id/textViewDeti"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:inputType="number"
+            android:hint="@string/deti_default"/>
+
+        <CheckBox
+            android:id="@+id/checkBoxManzelka"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="1"
+            android:layout_gravity="center|end"
+            android:text="@string/check_manzelka" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="2"
+            android:layout_gravity="start"
+            android:textSize="15sp"
+            android:layout_marginTop="10dp"
+            android:text="@string/cista_mzda"/>
+
+        <TextView
+            android:id="@+id/textViewCistaMzda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="2"
+            android:textSize="15sp"
+            android:textAlignment="center"
+            android:layout_gravity="center|top"
+            android:layout_marginTop="10dp"
+            android:hint="@string/pociatocna_hodnota" />
+
+        <Button
+            android:id="@+id/buttonSave"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="3"
+            android:layout_gravity="center|top"
+            android:layout_marginTop="5dp"
+            android:text="@string/ulozit" />
+
+        <Button
+            android:id="@+id/buttonOpen"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="4"
+            android:layout_gravity="center|top"
+            android:layout_marginTop="5dp"
+            android:text="@string/nacitat" />
+
+        <Button
+            android:id="@+id/buttonDelete"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="5"
+            android:layout_gravity="center|top"
+            android:layout_marginTop="5dp"
+            android:text="@string/vymazat" />
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="5dp">
+
+        <TextView
+            android:id="@+id/textViewNemocenske"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="0"
+            android:textSize="12sp"
+            android:text="@string/nemocenske" />
+
+        <TextView
+            android:id="@+id/textViewStarobne"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="1"
+            android:layout_marginTop="10dp"
+            android:textSize="12sp"
+            android:text="@string/starobne" />
+
+        <TextView
+            android:id="@+id/textViewInvalidne"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="2"
+            android:layout_marginTop="10dp"
+            android:textSize="12sp"
+            android:text="@string/invalidne" />
+
+        <TextView
+            android:id="@+id/textViewNezamestnanost"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="3"
+            android:layout_marginTop="10dp"
+            android:textSize="12sp"
+            android:text="@string/nezamestnanost" />
+
+        <TextView
+            android:id="@+id/textViewSocialna"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="4"
+            android:layout_marginTop="10dp"
+            android:textSize="12sp"
+            android:text="@string/socialna" />
+
+        <TextView
+            android:id="@+id/textViewZdravotne"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="5"
+            android:layout_marginTop="10dp"
+            android:textSize="12sp"
+            android:text="@string/zdravotne" />
+
+        <TextView
+            android:id="@+id/textViewOdvody"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="6"
+            android:layout_marginTop="10dp"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:text="@string/odvody" />
+
+        <TextView
+            android:id="@+id/textViewDan"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="7"
+            android:layout_marginTop="10dp"
+            android:textSize="12sp"
+            android:text="@string/dan" />
+
+        <TextView
+            android:id="@+id/textViewNemocenskeHodnota"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="0"
+            android:textSize="12sp"
+            android:textAlignment="center"
+            android:text="@string/pociatocna_hodnota" />
+
+        <TextView
+            android:id="@+id/textViewStarobneHodnota"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="1"
+            android:layout_marginTop="10dp"
+            android:textSize="12sp"
+            android:textAlignment="center"
+            android:text="@string/pociatocna_hodnota" />
+
+        <TextView
+            android:id="@+id/textViewInvalidneHodnota"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="2"
+            android:layout_marginTop="10dp"
+            android:textSize="12sp"
+            android:textAlignment="center"
+            android:text="@string/pociatocna_hodnota" />
+
+        <TextView
+            android:id="@+id/textViewNezamestnanostHodnota"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="3"
+            android:layout_marginTop="10dp"
+            android:textSize="12sp"
+            android:textAlignment="center"
+            android:text="@string/pociatocna_hodnota" />
+
+        <TextView
+            android:id="@+id/textViewSocialnaHodnota"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="4"
+            android:layout_marginTop="10dp"
+            android:textSize="12sp"
+            android:textAlignment="center"
+            android:text="@string/pociatocna_hodnota" />
+
+        <TextView
+            android:id="@+id/textViewZdravotneHodnota"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="5"
+            android:layout_marginTop="10dp"
+            android:textSize="12sp"
+            android:textAlignment="center"
+            android:text="@string/pociatocna_hodnota" />
+
+        <TextView
+            android:id="@+id/textViewOdvodyHodnota"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="6"
+            android:layout_marginTop="10dp"
+            android:textSize="12sp"
+            android:textAlignment="center"
+            android:text="@string/pociatocna_hodnota" />
+
+        <TextView
+            android:id="@+id/textViewDanHodnota"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="7"
+            android:layout_marginTop="10dp"
+            android:textSize="12sp"
+            android:textAlignment="center"
+            android:text="@string/pociatocna_hodnota" />
+
+    </GridLayout>
+
+</LinearLayout>
